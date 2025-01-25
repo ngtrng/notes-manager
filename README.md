@@ -60,3 +60,5 @@ python addnote.py
 ---
 
 ## **Notes**
+- This is an example note. ~ `25/01/2025 22:16`
+- This is another note, is it cool? ~ `25/01/2025 22:16`
