@@ -77,3 +77,4 @@ Learn to deploy AI models for real-world use.
 ---
 
 ### **Notes**
+- Heloo sigma boy.
