@@ -5,6 +5,7 @@
 ## Introduction
 
 Welcome to the Notes Management - Powered by **GitHub** ! This simple yet powerful script allows you to seamlessly add notes to your `README.md` file and automatically commit and push those changes to your GitHub repository. Say goodbye to manual note-taking and version control hassles!
+Jump to your notes list by clicking [here](#notes).
 
 ## How to Use
 
@@ -16,7 +17,7 @@ Welcome to the Notes Management - Powered by **GitHub** ! This simple yet powerf
   ```
 - Navigate to the project directory:
   ```bash
-    cd notes-management
+  cd notes-management
   ```
 
 ### 1. **Run the Script**:
@@ -47,7 +48,7 @@ Welcome to the Notes Management - Powered by **GitHub** ! This simple yet powerf
 
 ### Example:
 
-```bash
+```
 python addnote.py
 (🔄) Pulling the latest changes from the remote repository...
 (✏️) Enter your note: Complete the project documentation.
@@ -62,4 +63,4 @@ python addnote.py
 
 ---
 
-### **Notes**
+## **Notes**
