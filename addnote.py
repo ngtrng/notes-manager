@@ -3,7 +3,7 @@ from datetime import datetime
 
 def main():
     # Define commit message
-    commit_message, more, n = "", "y", 0
+    commit_message, more, n = "Tap to view what changed!\n", "y", 0
 
     # Pulling the latest changes from the remote repository
     print("[🔄] Pulling the latest changes from the remote repository...")
