@@ -2,6 +2,15 @@
 
 ---
 
+## Navigation
+
+- [Note](#note)
+- [Foundation Courses (Programming & Math)](#1-foundation-courses-programming--math)
+- [Core ML Concepts](#2-core-ml-concepts)
+- [NLP and Advanced Topics](#3-nlp-and-advanced-topics)
+- [Deployment and Real-World Application](#4-deployment-and-real-world-application)
+- [Suggested Weekly Plan](#suggested-weekly-plan-15-hoursweek)
+
 ### **1. Foundation Courses (Programming & Math)**
 
 Build essential Python and math skills for AI/ML.
@@ -68,7 +77,3 @@ Learn to deploy AI models for real-world use.
 ---
 
 ### **Notes**
-- Hello World!
-- Am I dumb?
-- Sigma Boy
-- I'm gay bro

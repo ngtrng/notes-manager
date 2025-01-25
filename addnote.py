@@ -2,19 +2,18 @@ import subprocess
 
 def main():
     # Define commit message
-    commit_message = "These notes have been added:\n"
+    commit_message = "👉 Click to view added notes\n"
 
-    print("This program adds notes to README.md file.")
     more, n = "yes", 0
     while more == "yes" or more == "y":
-        note = input("Enter a note: ")
+        note = input("(?) Enter your note: ")
         with open("README.md", "a") as outfile:
             outfile.write("- " + note + "\n")
         print("Note added.")
         n += 1
         commit_message += f"{n}. {note}\n"
-        more = input("Do you want to add another note? (yes/no): ").lower()
-    print("Notes have been written to README.md")
+        more = input("(?) Do you want to add another note? (yes/no): ").lower()
+    print("(!) Notes have been written to README.md")
 
     # Write the commit message to a temporary file
     with open("commit_message.txt", "w") as commit_file:
@@ -34,6 +33,10 @@ def main():
         print(stdout.decode('utf-8'))
         if stderr:
             print(stderr.decode('utf-8'))
+    
+    # Reset temporary files to empty
+    with open("commit_message.txt", "w") as commit_file:
+        commit_file.write("")
 
 if __name__ == '__main__':
     main()
