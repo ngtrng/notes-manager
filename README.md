@@ -25,7 +25,7 @@ Welcome to the Notes Management - Powered by **GitHub** ! This simple yet powerf
 
 ### 3. **Confirmation**:
 
-- After adding the note, you'll see a confirmation message: `[⭐] Note added.`.
+- After adding the note, you'll see a confirmation message: `[💾] Your note has been added.`.
 - The script will ask if you want to add another note: `[❓] Do you want to add another note? (y/n):`.
 - Enter `yes` or `y` to add another note, or `no` or `n` to finish.
 
@@ -46,7 +46,7 @@ Welcome to the Notes Management - Powered by **GitHub** ! This simple yet powerf
 python addnote.py
 [🔄] Pulling the latest changes from the remote repository...
 [✏️] Enter your note: Complete the project documentation.
-[⭐] Note added.
+[💾] Your note has been added.
 [❓] Do you want to add another note? (y/n): y
 [✏️] Enter your note: Schedule the team meeting.
 [⭐] Note added.
@@ -58,7 +58,3 @@ python addnote.py
 ---
 
 ## **Notes**
-- First day on Python. It is a bit hard, but I'm gonna learn this quick! ~ `25/01/2025 20:53`
-- Moving to something new, soon. ~ `25/01/2025 21:12`
-- I'm gonna sleep, next day I'll make a showcase video. ~ `25/01/2025 21:21`
-- This is a test ~ `25/01/2025 21:40`

@@ -16,7 +16,7 @@ def main():
         current_time = datetime.now().strftime("%d/%m/%Y %H:%M")
         with open("README.md", "a") as outfile:
             outfile.write(f"- {note} ~ `{current_time}`\n")
-        print("[⭐] Note added.")
+        print("[💾] Your note has been added.")
         n += 1
         commit_message += f"{n}. {note}\n"
         more = input("[❓] Do you want to add another note? (y/n): ").lower()
@@ -37,13 +37,20 @@ def main():
     for command in commands:
         process = subprocess.Popen(command, shell=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
         process.communicate()
-    
+
     # Reset temporary files to empty
     with open("commit_message.txt", "w") as commit_file:
         commit_file.write("")
-    
-    # Print success message
-    print("[✅] Your notes have been added successfully!")
+
+    # Get the remote URL
+    get_remote_url = subprocess.Popen("git remote get-url origin", shell=True, stdout=subprocess.PIPE, stderr=subprocess.DEVNULL)
+    stdout, stderr = get_remote_url.communicate()
+    if get_remote_url.returncode == 0:
+        remote_url = stdout.decode("utf-8").strip()
+        hyperlink = "\033]8;;{url}\033\\{text}\033]8;;\033\\".format(url=remote_url, text="repository")
+        print(f"[✅] Your notes have been added to your {hyperlink}.")
+    else:
+        print("[❌] An error occurred while getting the remote URL.")
 
 if __name__ == '__main__':
     main()
