@@ -66,3 +66,8 @@ Learn to deploy AI models for real-world use.
 - **Weeks 15+**: TensorFlow in Practice + Full Stack Deployment.
 
 ---
+
+### **Notes**
+
+- Hello World!
+- This is another one!
