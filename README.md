@@ -4,7 +4,7 @@
 
 ## Navigation
 
-- [Note](#note)
+- [Note](#notes)
 - [Foundation Courses (Programming & Math)](#1-foundation-courses-programming--math)
 - [Core ML Concepts](#2-core-ml-concepts)
 - [NLP and Advanced Topics](#3-nlp-and-advanced-topics)
