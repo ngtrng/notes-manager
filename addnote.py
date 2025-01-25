@@ -48,7 +48,7 @@ def main():
     if get_remote_url.returncode == 0:
         remote_url = stdout.decode("utf-8").strip()
         hyperlink = "\033]8;;{url}\033\\{text}\033]8;;\033\\".format(url=remote_url, text="repository")
-        print(f"[✅] Your notes have been added to your {hyperlink}.")
+        print(f"[✅] Your notes have been saved to your {hyperlink}.")
     else:
         print("[❌] An error occurred while getting the remote URL.")
 
