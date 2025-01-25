@@ -51,7 +51,7 @@ python addnote.py
 [💾] Your note has been added.
 [❓] Do you want to add another note? (y/n): y
 [✏️] Enter your note: Schedule the team meeting.
-[⭐] Note added.
+[💾] Your note has been added.
 [❓] Do you want to add another note? (y/n): n
 [🚀] Waiting for Git to save your notes...
 [✅] Your notes have been added successfully!
