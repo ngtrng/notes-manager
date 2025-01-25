@@ -60,3 +60,4 @@ python addnote.py
 ## **Notes**
 - First day on Python. It is a bit hard, but I'm gonna learn this quick! ~ `25/01/2025 20:53`
 - Moving to something new, soon. ~ `25/01/2025 21:12`
+- I'm gonna sleep, next day I'll make a showcase video. ~ `25/01/2025 21:21`
