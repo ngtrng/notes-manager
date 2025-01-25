@@ -82,3 +82,4 @@ Learn to deploy AI models for real-world use.
 - Hello you
 - test
 - Hexacribaby
+- New note
