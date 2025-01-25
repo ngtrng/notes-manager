@@ -60,3 +60,5 @@ python addnote.py
 ---
 
 ## **Notes**
+- This is just a note and it'll be added to my repository ~ `25/01/2025 22:12`
+- This is another note to add, cool? ~ `25/01/2025 22:12`
