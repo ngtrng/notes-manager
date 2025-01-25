@@ -77,4 +77,4 @@ Learn to deploy AI models for real-world use.
 ---
 
 ### **Notes**
-- SIgma
+- mynoteboook is here ~ `2025/01/25 17:01:`
