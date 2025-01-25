@@ -19,7 +19,7 @@ def main():
         print("[⭐] Note added.")
         n += 1
         commit_message += f"{n}. {note}\n"
-        more = input("(❓) Do you want to add another note? (y/n): ").lower()
+        more = input("[❓] Do you want to add another note? (y/n): ").lower()
     print("[🚀] Waiting for Git to save your notes...")
 
     # Write the commit message to a temporary file
