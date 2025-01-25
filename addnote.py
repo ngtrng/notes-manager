@@ -1,18 +1,27 @@
 import subprocess
+from datetime import datetime
 
 def main():
     # Define commit message
     commit_message = "👉 Tap to View\n"
     more, n = "yes", 0
+
+    # Pulling the latest changes from the remote repository
+    print("(🔄) Pulling the latest changes from the remote repository...")
+    pulling_cmd = subprocess.Popen("git pull origin main", shell=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+    pulling_cmd.communicate()
+
+    # Add notes
     while more == "yes" or more == "y":
-        note = input("(?) Enter your note: ")
+        note = input("(✏️) Enter your note: ")
+        current_time = datetime.now().strftime("%d/%m/%Y %H:%M")
         with open("README.md", "a") as outfile:
-            outfile.write("- " + note + "\n")
-        print("(+) Note added.")
+            outfile.write(f"- {note} ~ `{current_time}`\n")
+        print("(⭐) Note added.")
         n += 1
         commit_message += f"{n}. {note}\n"
-        more = input("(?) Do you want to add another note? (yes/no): ").lower()
-    print("(*) Waiting for Git commands to execute...")
+        more = input("(❓) Do you want to add another note? (y/n): ").lower()
+    print("(🚀) Waiting for Git to save your notes...")
 
     # Write the commit message to a temporary file
     with open("commit_message.txt", "w", encoding="utf-8") as commit_file:
@@ -28,14 +37,14 @@ def main():
     # Run the Git commands
     for command in commands:
         process = subprocess.Popen(command, shell=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
-        stdout, stderr = process.communicate()
+        process.communicate()
     
     # Reset temporary files to empty
     with open("commit_message.txt", "w") as commit_file:
         commit_file.write("")
     
     # Print success message
-    print("\n(!) Notes have been saved and added to README.md")
+    print("(✅) Your notes have been added successfully!")
 
 if __name__ == '__main__':
     main()
