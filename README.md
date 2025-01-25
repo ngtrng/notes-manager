@@ -70,3 +70,5 @@ Learn to deploy AI models for real-world use.
 ### **Notes**
 - Hello World!
 - Am I dumb?
+- Sigma Boy
+- I'm gay bro
