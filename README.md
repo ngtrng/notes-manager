@@ -1,4 +1,4 @@
-Here’s your complete **learning path** for building, training, and deploying your own AI model, organized for easy reference:
+# AI Learning Path
 
 ---
 
