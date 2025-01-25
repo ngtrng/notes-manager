@@ -68,10 +68,5 @@ Learn to deploy AI models for real-world use.
 ---
 
 ### **Notes**
-
 - Hello World!
-- This is another one!
-- hello
-- world
-- The Main
-- Prodigy
+- Am I dumb?
