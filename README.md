@@ -77,9 +77,4 @@ Learn to deploy AI models for real-world use.
 ---
 
 ### **Notes**
-- Hello World!
-- Hello Guy!
-- Hello you
-- test
-- Hexacribaby
-- New note
+- SIgma
