@@ -58,3 +58,4 @@ python addnote.py
 ---
 
 ## **Notes**
+- New thing is new ~ `25/01/2025 21:51`
