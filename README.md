@@ -6,7 +6,7 @@
 
 Welcome to the Notes Management - Powered by **GitHub** ! This simple yet powerful script allows you to seamlessly add notes to your `README.md` file and automatically commit and push those changes to your GitHub repository. Say goodbye to manual note-taking and version control hassles!
 
-_Jump to your notes list by clicking **[here](#notes)**._
+**>> Jump to your notes list by clicking [here](#notes).**
 
 ## How to Use
 
