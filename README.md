@@ -62,3 +62,5 @@ python addnote.py
 ## **Notes**
 - This is an example note. ~ `25/01/2025 22:16`
 - This is another note, is it cool? ~ `25/01/2025 22:16`
+- Today, I'm nearly to finish module 3 of Git Tutorial on Coursera. ~ `27/01/2025 11:32`
+- Goal: Finish this one as soon as possible before the next day. ~ `27/01/2025 11:33`
